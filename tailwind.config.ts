@@ -10,13 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        fem_blue: {
+        femBlue: {
           100: "#2c7dfa",
           200: "#3685ff",
         },
-        fem_navy: "#1f314f",
-        fem_grey: {
-          100: "#d5e1ef",
+        femNavy: "#1f314f",
+        femGrey: {
+          100: "#D5E1EF",
           200: "#7d889e",
         },
       },
