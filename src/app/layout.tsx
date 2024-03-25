@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const sans = Outfit({
+  subsets: ["latin"],
+  // this will be the css variable
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | QR code component",

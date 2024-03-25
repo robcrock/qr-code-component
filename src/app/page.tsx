@@ -13,7 +13,9 @@ export default function Home() {
           href="./images/favicon-32x32.png"
         />
       </Head>
-      <p>Improve your front-end skills by building projects</p>
+      <p className=" text-2xl">
+        Improve your front-end skills by building projects
+      </p>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
