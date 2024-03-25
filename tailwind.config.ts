@@ -8,10 +8,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily: {
-      // add the css variable and include fallback fonts from tailwind default theme
-      sans: ["var(--font-sans)", ...fontFamily.sans],
-    },
     extend: {
       colors: {
         fem_blue: {
